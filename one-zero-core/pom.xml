@@ -4,12 +4,20 @@
     <parent>
         <groupId>com.one-zero</groupId>
         <artifactId>parent</artifactId>
-        <version>1.0-SNAPSHOT</version>
+        <version>1.0.0</version>
     </parent>
 
     <artifactId>one-zero-core</artifactId>
     <packaging>jar</packaging>
 
     <name>one-zero-core</name>
+
+    <dependencies>
+        <dependency>
+            <groupId>com.one-zero</groupId>
+            <artifactId>one-zero-base</artifactId>
+            <version>${one-zero.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>
