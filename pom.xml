@@ -23,7 +23,16 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <one-zero.version>1.0.0</one-zero.version>
     </properties>
-
+    <distributionManagement>
+        <repository>
+            <!-- id 需要和 server id一致 -->
+            <id>github</id>
+            <!-- name, 可选 -->
+            <name>GitHub OWNER Apache Maven Packages</name>
+            <!-- 替换成实际的地址, e.g: 账户名称 zhangSan, 仓库名称 test 则为 https://maven.pkg.github.com/zhangsan/test -->
+            <url>https://maven.pkg.github.com/voncho-zero/repository</url>
+        </repository>
+    </distributionManagement>
     <build>
         <resources>
             <resource>
