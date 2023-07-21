@@ -11,7 +11,7 @@ public interface ITree<T extends Serializable, K extends ITree<T, K>> extends IB
     void setChildren(List<K> children);
 
     Integer getOrderNo();
-    void setOrderNo();
+    void setOrderNo(Integer orderNo);
 
     Boolean getIsLeaf();
     void setIsLeaf(Boolean isLeaf);
