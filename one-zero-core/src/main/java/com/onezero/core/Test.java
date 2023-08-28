@@ -1,4 +1,6 @@
-package com.onezero.base;
+package com.onezero.core;
+
+import com.onezero.core.enhance.Params;
 
 import java.util.Map;
 
