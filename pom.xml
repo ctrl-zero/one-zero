@@ -6,7 +6,7 @@
 
     <groupId>com.one-zero</groupId>
     <artifactId>parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1</version>
     <packaging>pom</packaging>
 
     <name>one-zero</name>
@@ -18,13 +18,13 @@
     </modules>
 
     <properties>
-        <java.version>17</java.version>
-        <maven.compiler.source>17</maven.compiler.source>
-        <maven.compiler.target>17</maven.compiler.target>
+        <java.version>21</java.version>
+        <maven.compiler.source>21</maven.compiler.source>
+        <maven.compiler.target>21</maven.compiler.target>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <spring.version>6.0.11</spring.version>
         <jackson.version>2.15.2</jackson.version>
-        <one-zero.version>1.0.0</one-zero.version>
+        <one-zero.version>1.0.1</one-zero.version>
     </properties>
     <distributionManagement>
         <repository>
